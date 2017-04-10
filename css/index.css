@@ -1,0 +1,119 @@
+body{
+	position: relative;
+	background-color: black;
+}
+.logImg{
+	padding: 0 30px;
+}
+.logWidth{
+	width: 50px;
+}
+.homePad0{
+	padding: 0;
+}
+.seccion{
+	padding-top: 50px;
+}
+.glyphi-tam{
+	font-size: 8em;
+}
+
+#about{
+	background: #090909 url(img/fondos/features-bg.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+	color: white;
+}
+.aboutCenText{
+	width: 80%;
+	margin: 2em auto 3em;
+}
+
+#gallery{
+	background-color: white;
+	padding-bottom: 50px;
+}
+.galInLi{
+	margin: 0 auto;
+	display: -webkit-box;
+	text-align: -webkit-center;
+}
+.hidTxt{
+	font-size: 1.3em;
+}
+.containerGal {
+	position: relative;
+	width: 50%;
+}
+.imageGal {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middleGal {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+.containerGal:hover .imageGal {
+	opacity: 0.3;
+}
+.containerGal:hover .middleGal {
+	opacity: 1;
+}
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgGal{
+	width: 20em;
+	margin: 2em;
+	display: inline-block;
+}
+
+#contact{
+	background: #090909 url(../img/fondos/fondo1.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+	color: white;
+}
+.mar0Aut{
+	margin: 0 auto;
+}
+.trans{
+	background-color: rgba(0,0,0,.3);
+	padding-bottom: 50px;
+}
+.misRedes{
+	width: 2em;
+	height: 2em;
+	padding: 0;
+	transition: 1.2s;
+}
+.misRedes:hover{
+	transform: rotate(360deg);
+}
+.socialW{
+	width: 100%;
+}
+.alinear{
+	display: inline-flex;
+}
+
+footer{
+	background-color: #191919;
+}
